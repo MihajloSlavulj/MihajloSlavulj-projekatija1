@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.dostava {
+    background: #ec6060;
+    color: white;
+    padding: 150px;
+    border-radius: 70px;
+}
+
+.dostava .button {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dostava .button:hover {
+    background: #2980b9;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.kontakt{
+    background: #ec6060;
+    color: white;
+    padding: 150px;
+    border-radius: 70px;
+    text-decoration: none;
+    text-align: center;
+}
+.kontakt .button{
+    background: #3498db;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+.kontakt .button:hover{
+    background-color: #2980b9;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+
+form {
+    background: #ec6060;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(54, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #2980b9;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    max-width: 200px; 
+    height: auto; /* Zadržava proporcije */
+    justify-content: center;
+    display: flex;
+}
